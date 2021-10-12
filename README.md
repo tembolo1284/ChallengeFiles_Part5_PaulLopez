@@ -13,6 +13,10 @@ The next step in the application is assume a 40% / 60% weighting between the bon
 simulation for 30 years and calculate the 95% confidence interval of where the monthly income of 12000 could possibly take us.
 
  I run the same analysis as above but for 10 years and assuming a 20% / 80% weighting in favor of equity holdings.
+After that I answer the question if it is possible for the client to retire in 10 years versus 30 years by changing the weighting
+of their portfolio toward a more aggressive 80% equity favored distribution versus just 60%.
+
+Even with a more aggressive 20/80 split of the portfolio for 10 years, the possible returns just don't come close to the 40/60 split over 30 years.  More so that the allocation breakdown, the time really seems to be what makes the difference in how explosive the resulting value of a portfolio can be.
 
 
 ## Story
@@ -49,8 +53,8 @@ webpage that launches.
 
 ## Usage
 
-I have one csv file in the Resources folder named whale_navs.csv.  All that needs to be
-done by the user is hit the double arrow and run the code. 
+Ensure the MCForecastTools.py file, gitignore file, and .env files are in the directory where you run financial_planning_tools.ipynb
+from and the user should be good to go.  The user is free to update income or emergency fund threshold as needed. 
 
 That's it!
 
