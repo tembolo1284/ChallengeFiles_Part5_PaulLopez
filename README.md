@@ -54,7 +54,9 @@ webpage that launches.
 ## Usage
 
 Ensure the MCForecastTools.py file, gitignore file, and .env files are in the directory where you run financial_planning_tools.ipynb
-from and the user should be good to go.  The user is free to update income or emergency fund threshold as needed. 
+from and the user should be good to go.  The user is free to update income or emergency fund threshold as needed. The user is also
+free to change allocation percentages in the monte carlo simulations, the years we simulate, and even the tickers we look at for the
+equity, bond, or crypto holdings.
 
 That's it!
 
